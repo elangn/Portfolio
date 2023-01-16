@@ -1,0 +1,298 @@
+/*  section header  */
+
+/* .header .navbar { 
+    background-color: black;
+    color: white;
+} */
+
+
+
+.header .navbar-brand {
+     font-size: 26px;
+    }
+
+.header .navbar-nav a {
+    font-size: 16px;
+    margin-inline: 10px;
+}
+
+.header .navbar-nav a:hover {
+    color: maroon;
+     border-bottom: 1px solid maroon;
+}
+
+.header button { 
+    font-size: 14px;
+}
+
+.header  .hero { 
+    background-color: #8080805d;
+  
+}
+
+.header .row { 
+    min-height: 85vh;
+}
+
+.header .row .col-md:nth-child(1) h1 { 
+    font-size: 40px;
+    --animate-delay: 1.2s;
+
+}
+
+.header .row .col-md:nth-child(1) p {
+   
+    --animate-delay: 1.4s;
+
+}
+
+
+.header .sosmed   { 
+    margin-bottom: 20px;
+}
+
+.header .sosmed  i { 
+    margin: 0 5px;
+    font-size: 25px;
+}
+
+.header .sosmed  i:nth-child(1) { 
+    color: orangered
+}
+
+.header .sosmed  i:nth-child(2) { 
+    color: black;
+}
+
+.header .sosmed  i:nth-child(3) { 
+    color: rgb(15, 137, 212);
+}
+
+.header .sosmed  i:nth-child(4) { 
+    color: rgb(27, 27, 177)
+}
+
+.header .sosmed  i:nth-child(5) { 
+    color: purple;
+}
+
+
+.header .tombol1 { 
+     --animate-delay: 1.6s;
+     background-color: rgb(116, 0, 165);
+     color: white;
+}
+
+.header .tombol2 { 
+     --animate-delay: 1.8s;
+     background-color: maroon;
+     color: white;
+}
+
+
+
+.header .row .cold-md:nth-child(1) button:nth-child(3) { 
+    background-color: purple;
+    --animate-delay: 1.4s;
+}
+
+
+
+.header  .row .col-md:nth-child(1) div p {
+    font-size: 16px;
+}
+
+.header .col-md:nth-child(2) img:nth-child(1) { 
+
+    width: 450px;
+    --animate-delay: 1.8s;
+
+}
+
+/* section skills */
+
+.skills .container h1 { 
+    font-size: 28px;
+}
+
+.skills .row  i {
+    color: brown;
+    font-size: 38px;
+}
+
+.skills .row h4 {
+    font-size: 18px;
+}
+
+.skills .row p {
+    font-size: 16px;
+}
+
+
+/* section about  */
+
+.about .row .col-md-5 img:nth-child(1) {
+    width: 300px;
+   
+}
+
+
+
+.about { 
+    background-color: rgb(221, 229, 218);
+
+}
+
+.about .row .col-md-5:nth-child(2) h4 {
+    font-size: 28px;;
+   
+}
+
+.about .row .col-md-5:nth-child(2) p {
+    font-size: 16px;
+   
+}
+
+.about .row .col-md-5:nth-child(2) .gambar i {
+    font-size: 30px;
+    margin: 0 5px;
+
+}
+
+.about .row .col-md-5:nth-child(2) .gambar i:nth-child(1) {
+    color: rgb(255, 98, 0) ;
+
+}
+
+.about .row .col-md-5:nth-child(2) .gambar i:nth-child(2) {
+    color: rgb(29, 29, 198)
+
+}
+
+.about .row .col-md-5:nth-child(2) .gambar i:nth-child(3) {
+    color: rgba(241, 241, 16, 0.676)
+
+}
+
+.about .row .col-md-5:nth-child(2) .gambar i:nth-child(4) {
+    color: rgb(68, 0, 128)
+
+}
+
+.about .row .col-md-5:nth-child(2) .gambar i:nth-child(5) {
+    color: lightskyblue
+
+}
+
+/*  section projects */
+
+.projects  h1 { 
+    font-size: 28px;
+}
+
+.projects .row .col-sm-6 img { 
+    border-radius: 5px;
+}
+
+.projects .row .col-sm-6 h5 { 
+    font-size: 18px;
+}
+
+.projects .row .col-sm-6 p { 
+    font-size: 16px;
+}
+
+/* section Services */
+
+.services h1 { 
+    font-size: 28px;
+}
+
+.services .row .col h5 { 
+    font-size: 18px;
+}
+
+.services .row .col p { 
+    font-size: 16px;
+}
+
+/* section footer */
+
+.footer { 
+    background-color: rgb(221, 229, 218);
+    min-height: 40vh;
+
+}
+
+.footer h3 {
+    font-size: 18px;
+}
+
+.footer p { 
+    font-size: 16px;
+}
+
+.footer a { 
+    font-size: 16px;
+    color: black;
+}
+
+/* section copyright */
+
+.copyright { 
+    background-color: rgb(221, 229, 218);
+    min-height: 40px;
+    
+}
+
+.copyright h4 { 
+    font-size: 16px;
+}
+
+/* section loader */
+
+.loader { 
+    position :fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader .spinner-grow { 
+    width: 50px;
+    height: 50px;
+  
+}
+
+.loader-active {
+    display: none;
+}
+    
+
+@media (max-width : 767px ) { 
+    .header .row .col-md:nth-child(1) h1 { 
+        font-size: 30px;
+    }
+
+    .about .row .col-md-5 img:nth-child(1) {
+        width: 200px;
+       
+    }
+}
+
+
+@media (max-width : 575px ) { 
+    .header .col-md:nth-child(2) img:nth-child(1) { 
+    
+        width: 300px;
+        
+    
+    }
+}
+
